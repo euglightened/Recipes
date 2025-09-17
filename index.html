@@ -1,19 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Recipes</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
-    <h1>Odin Recipes</h1>
+  <header class="header">
+    <div class="logo">Recipes</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="#recipes">Recipes</a>
+    </nav>
+  </header>
 
-    <ul>
-        <li><a href="recipes/salad.html">Watermelon Salad with Feta</a></li>
-        <li><a href="recipes/chiken.html">Sweet and Sour Chicken</a></li>
-        <li><a href="recipes/srawberries.html">Italian Macerated Strawberries</a></li>
-    </ul>
+  <main class="container">
+    <section class="intro">
+      <h1>Delicious Recipes</h1>
+      <p>Simple recipe pages with ingredients, steps, and a photo. Click a recipe to open its page.</p>
+    </section>
 
+    <section id="recipes" class="recipe-list">
+      <article class="recipe-card">
+        <img src="images/lasagna.avif" alt="Lasagna" />
+        <h3><a href="lasagna.html">Lasagna</a></h3>
+        <p>Classic layered lasagna with meat sauce and cheese.</p>
+      </article>
+
+      <article class="recipe-card">
+        <img src="images/pizza.avif" alt="Pizza" />
+        <h3><a href="pizza.html">Pizza Margherita</a></h3>
+        <p>Simple pizza with tomatoes, mozzarella, and basil.</p>
+      </article>
+
+      <article class="recipe-card">
+        <img src="images/salad.avif" alt="Salad" />
+        <h3><a href="salad.html">Fresh Salad</a></h3>
+        <p>Bright mixed-green salad with a lemon vinaigrette.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Recipes. All rights reserved.</p>
+  </footer>
 </body>
 </html>
