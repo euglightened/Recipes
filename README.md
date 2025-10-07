@@ -6,7 +6,8 @@ Built as part of [The Odin Project Foundations](https://www.theodinproject.com/p
 This project focuses on basic HTML structure, internal links, and images.
 
 ## 🖼️ Live Preview
-👉 [View on GitHub Pages](https://your-username.github.io/recipes/)
+👉 [View on GitHub Pages](<img width="1907" height="900" alt="image" src="https://github.com/user-attachments/assets/fb9224a7-3486-41a9-9b86-e2561a2f5a22" />
+)
 <!-- Replace "your-username" -->
 
 ## 🛠️ Built With
@@ -20,3 +21,4 @@ Through this project, I learned how to:
 
 ---
 **Project from [The Odin Project](https://www.theodinproject.com/).**
+
